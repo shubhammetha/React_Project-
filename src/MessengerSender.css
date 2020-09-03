@@ -1,0 +1,60 @@
+.messengerSender {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.messengerSender_top {
+  display: flex;
+  border-bottom: 1px solid #eff2f5;
+  padding-bottom: 15px;
+  padding: 15px;
+}
+
+.messengerSender_top > form {
+  flex: 1;
+  display: flex;
+}
+
+.messengerSender_top > form > input {
+  outline-width: 0px;
+  border: none;
+  padding: 5px 20px;
+  margin: 0 10px;
+  border-radius: 999px;
+  background-color: #eff2f5;
+}
+
+.messengerSender_top > form > button {
+  display: none;
+}
+
+.messengerSender_input {
+  flex: 1;
+}
+
+.messengerSender_bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.messengerSender_option {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  color: gray;
+  margin: 5px;
+}
+
+.messengerSender_option > h3 {
+  font-size: medium;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.messengerSender_option:hover {
+  background-color: #eff2f5;
+  border-radius: 20px;
+}
