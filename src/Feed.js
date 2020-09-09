@@ -25,7 +25,7 @@ function Feed() {
           profilePic={post.data.profilePic}
           message={post.data.message}
           timestamp={post.data.timestamp}
-          username={post.data.userName}
+          username={post.data.username}
           image={post.data.image}
         />
       ))}
